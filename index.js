@@ -18,7 +18,7 @@ app.use(cors())
 
 app.use(express.json())
 app.use(requestLogger)
-app.use(express.static('dist'))
+app.use(express.static('build'))
 
 let notes = [
   {
@@ -40,7 +40,7 @@ let notes = [
 
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+  res.send()
 })
 
 app.get('/api/notes', (req, res) => {
