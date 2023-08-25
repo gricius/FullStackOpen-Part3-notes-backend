@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf build && cd ../FullStackOpen-notes-frontend/ && npm run build && cp -r build ../FullStackOpen-Part3-notes-backend",
     "deploy": "fly deploy",
-    "deploy:full": "npm run build:ui && npm run deploy",    
+    "deploy:full": "npm run build:ui && npm run deploy",
     "logs:prod": "fly logs"
   },
   "author": "",
@@ -17,7 +17,8 @@
   "dependencies": {
     "build": "^0.1.4",
     "cors": "^2.8.5",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^7.4.4"
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.4.7",
