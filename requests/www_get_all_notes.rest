@@ -1,0 +1,1 @@
+GET https://twilight-cherry-2650.fly.dev/api/notes
