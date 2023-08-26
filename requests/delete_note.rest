@@ -1,0 +1,2 @@
+// delete note
+DELETE  http://localhost:3001/api/notes/64ea1664dcbbefac66cb5e5a
