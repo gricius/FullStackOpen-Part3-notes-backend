@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "Notes-Backend"
+app = "twilight-cherry-2650"
 primary_region = "ams"
 
 [build]
