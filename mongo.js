@@ -6,7 +6,7 @@ if (process.argv.length<3) {
 }
 
 const password = process.argv[2]
-  
+
 const url =
   `mongodb+srv://gricius:${password}@cluster0.on17o4v.mongodb.net/noteApp?retryWrites=true&w=majority`
 
@@ -31,8 +31,8 @@ const Note = mongoose.model('Note', noteSchema)
 // })
 
 Note.find({}).then(result => {
-    result.forEach(note => {
-      console.log(note)
-    })
-    mongoose.connection.close()
+  result.forEach(note => {
+    console.log(note)
   })
+  mongoose.connection.close()
+})
