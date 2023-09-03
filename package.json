@@ -16,13 +16,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "build": "^0.1.4",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.17.3",
     "express-async-errors": "^3.1.1",
     "fly": "^4.5.7",
-    "mongoose": "^7.4.4"
+    "mongoose": "^7.4.4",
+    "mongoose-unique-validator": "^4.0.0"
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.4.7",
