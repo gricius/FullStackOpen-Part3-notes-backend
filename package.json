@@ -23,6 +23,7 @@
     "express": "^4.17.3",
     "express-async-errors": "^3.1.1",
     "fly": "^4.5.7",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.4.4",
     "mongoose-unique-validator": "^4.0.0"
   },

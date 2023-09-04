@@ -75,6 +75,7 @@ describe('addition of a new note', () => {
     const newNote = {
       content: 'async/await simplifies making async calls',
       important: true,
+      userId: helper.usersInDb()[0].id
     }
 
     await api
